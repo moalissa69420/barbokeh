@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bar Bokeh — Leslieville</title>
+  <meta name="description" content="Cocktails and small plates. 890 Queen St E, Toronto." />
+  <meta property="og:title" content="Bar Bokeh" />
+  <meta property="og:description" content="Cocktails and small plates. Leslieville, Toronto." />
+  <meta property="og:image" content="assets/img/photos/hero-bar.jpg" />
+  <link rel="icon" type="image/png" href="assets/img/web-monogram-garnet.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="mark" href="#top" aria-label="Bar Bokeh home">
+      <img class="mark-cream" src="assets/img/web-monogram-cream.png" alt="" width="48" height="38" />
+      <img class="mark-garnet" src="assets/img/web-monogram-garnet.png" alt="" width="48" height="38" />
+    </a>
+    <nav class="nav">
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a href="https://www.instagram.com/barbokeh/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Bar Bokeh">
+      <img
+        class="hero-photo"
+        src="assets/img/photos/hero-bar.jpg"
+        alt="The bar at Bar Bokeh"
+        width="1920"
+        height="1280"
+      />
+      <div class="hero-veil" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <img
+          class="hero-wordmark"
+          src="assets/img/web-wordmark-cream.png"
+          alt="Bar Bokeh"
+          width="1200"
+          height="313"
+        />
+        <p class="hero-line">890 Queen St E</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#menu">View Menu</a>
+          <a class="btn btn-ghost" href="#visit">Find Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <header class="menu-head">
+        <p class="eyebrow">The list</p>
+        <h2 class="script">Menu</h2>
+      </header>
+
+      <div class="menu-tabs" role="tablist" aria-label="Menu sections">
+        <button class="menu-tab is-active" type="button" role="tab" aria-selected="true" data-tab="cocktails">Cocktails</button>
+        <button class="menu-tab" type="button" role="tab" aria-selected="false" data-tab="food">Food</button>
+        <button class="menu-tab" type="button" role="tab" aria-selected="false" data-tab="more">More</button>
+      </div>
+
+      <div class="menu-panel is-active" id="panel-cocktails" role="tabpanel">
+        <div class="menu-grid">
+          <article class="menu-col">
+            <ul class="menu-list">
+              <li>
+                <div class="item-row"><span class="item-name">Ume Highball</span></div>
+                <p class="item-desc">Umeshu, Thai Basil, Melon, Campari, Cucumber Water</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Jasmine Water</span></div>
+                <p class="item-desc">White Vermouth, Jasmine Passionfruit, Lychee, Coconut Water, Dry Port</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Calamansi High</span></div>
+                <p class="item-desc">Tromba Blanco, Aloe, Lemon Balm, Calamansi, White Wine, Ginger, Hawthorne, Habanero</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Coffee 3</span></div>
+                <p class="item-desc">Licor 43, Coffee Liqueur, Vermouth, Vietnamese Coffee, Milk, Sabayon</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Ube &amp; Lychee</span></div>
+                <p class="item-desc">Flor De Caña 5, Pandan, Calamansi, Lychee, Black Tea, Ube, Coconut Milk</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">White Chocolate Strawberry</span></div>
+                <p class="item-desc">White Rum, Overproofed Rum, Buko Pandan, White Chocolate, Strawberry, Coconut Milk</p>
+              </li>
+            </ul>
+          </article>
+          <article class="menu-col">
+            <ul class="menu-list">
+              <li>
+                <div class="item-row"><span class="item-name">Garden Gibson</span></div>
+                <p class="item-desc">Boatyard Gin, Tomato, Pickled Onion, Fino Sherry, Dry Vermouth</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Cucumber Salad Martini</span></div>
+                <p class="item-desc">Vodka, Nori, Sesame, Cucumber, Ginger Brine</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Moringa Butter</span></div>
+                <p class="item-desc">Brown Butter Aged Rum, Rye, Maple-Soy, Lime Leaf, Moringa</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">PB &amp; J *</span></div>
+                <p class="item-desc">Peanut Fat-Washed Bearface Whisky, Campari, Pineau, Strawberry, Amontillado, Pineapple</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Mango Sticky Rice</span></div>
+                <p class="item-desc">Gin, Mango, Dry Vermouth, Toasted Rice, Coconut, Bitters</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Watermelon Kiwi</span></div>
+                <p class="item-desc">Tequila, Barley Shochu, Jujube, Kiwi, Watermelon, White Peppercorn Shrub</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Banana Roti</span></div>
+                <p class="item-desc">Bearface Whisky, Brown Butter, Tonka Bean, Roti Canai, Orgeat, Miso, Banana Oleo, Lime</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Milk Oolong Ramos</span></div>
+                <p class="item-desc">Dillon’s Vodka, Oolong, Wintermelon, Brown Sugar, Citrus, Cream, Egg</p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="panel-food" role="tabpanel" hidden>
+        <p class="menu-sub">Small Plates To Share</p>
+        <div class="menu-grid">
+          <article class="menu-col">
+            <ul class="menu-list">
+              <li>
+                <div class="item-row"><span class="item-name">Mala Chips (VG)</span></div>
+                <p class="item-desc">Plantain, Taro, Sichuan Pepper</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Watermelon Salad (VG)</span></div>
+                <p class="item-desc">Nuoc Mam, Cucumber, Mint, Pickles, Toasted Coconut, Soy And Black Vinegar Reduction</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Beef Tartare</span></div>
+                <p class="item-desc">Top Sirloin, Nashi Yuzu Pear, Sesame, Nori Chip</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Seabream Crudo (GF)</span></div>
+                <p class="item-desc">Green Mango, Coconut, Calamansi, Ginger Dressing</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Shrimp Toast</span></div>
+                <p class="item-desc">Housemade Shokupan, Shrimp Mousse, Spicy Mayo, Sesame, Scallions</p>
+              </li>
+            </ul>
+          </article>
+          <article class="menu-col">
+            <ul class="menu-list">
+              <li>
+                <div class="item-row"><span class="item-name">Stuffed Chicken Wings (GF)</span></div>
+                <p class="item-desc">3pcs · Sai Oua, Tamarind, Chili, Fresh Herbs</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Calamari</span></div>
+                <p class="item-desc">Sambal Bawang, Lime, Fermented Chili, Curry Leaves</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Eggplant Katsu Sando (V)</span></div>
+                <p class="item-desc">Furikake, Sesame Sauce, Teriyaki</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Thai Curry Octopus</span></div>
+                <p class="item-desc">Red Thai Curry, Charred Pineapple, Lemongrass, Chili, Scallion Roti Canai</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Crying Tiger Steak (GF)</span></div>
+                <p class="item-desc">Nam Jim Jaew, Picanha, Pickled Onion, Crispy Rice Noodles, Fresh Herbs</p>
+              </li>
+            </ul>
+          </article>
+        </div>
+        <p class="menu-aside">V = Vegetarian · VG = Vegan · GF = Gluten Free · * = Contains Nuts</p>
+      </div>
+
+      <div class="menu-panel" id="panel-more" role="tabpanel" hidden>
+        <div class="menu-grid menu-grid-more">
+          <article class="menu-col">
+            <h3 class="script menu-title">Sweets</h3>
+            <ul class="menu-list">
+              <li>
+                <div class="item-row"><span class="item-name">Banana Miso Pudding</span></div>
+                <p class="item-desc">Banana Date Cake, Whipped Banana Ganache, Miso Ice Cream, Coconut Streusel</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Rotating Soft Serve (V)</span></div>
+                <p class="item-desc">Ask Team For Details</p>
+              </li>
+            </ul>
+          </article>
+          <article class="menu-col">
+            <h3 class="script menu-title">Non Alcoholic</h3>
+            <ul class="menu-list">
+              <li>
+                <div class="item-row"><span class="item-name">Ube And Lychee</span></div>
+                <p class="item-desc">Non-Alcoholic Spiced Rum, Pandan, Calamansi, Lychee, Black Tea, Ube, Coconut Milk</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Matcha Sour</span></div>
+                <p class="item-desc">Acid-Adjusted Strawberry, Guava, Tonic, Toasted Rice And Coconut, Matcha Float</p>
+              </li>
+            </ul>
+          </article>
+          <article class="menu-col">
+            <h3 class="script menu-title">Beers</h3>
+            <ul class="menu-list">
+              <li>
+                <div class="item-row"><span class="item-name">Guinness</span></div>
+                <p class="item-desc">Stout</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Nomad</span></div>
+                <p class="item-desc">Blood Orange Wheat Ale</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Nomad</span></div>
+                <p class="item-desc">Helles Lager</p>
+              </li>
+            </ul>
+          </article>
+          <article class="menu-col">
+            <h3 class="script menu-title">Wine</h3>
+            <ul class="menu-list">
+              <li>
+                <div class="item-row"><span class="item-name">François Montand</span></div>
+                <p class="item-desc">Blanc De Blancs Brut · Sparkling</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Fonteamonte</span></div>
+                <p class="item-desc">Trebbiano D’Abruzzo · White</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Benazzoli</span></div>
+                <p class="item-desc">Pinot Grigio · White</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Tecla</span></div>
+                <p class="item-desc">Rosé</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Fonteantica</span></div>
+                <p class="item-desc">Montepulciano D’Abruzzo · Red</p>
+              </li>
+              <li>
+                <div class="item-row"><span class="item-name">Venezia Giulia</span></div>
+                <p class="item-desc">Cabernet · Red</p>
+              </li>
+            </ul>
+          </article>
+        </div>
+        <p class="menu-aside">A Gratuity Of 20% Will Be Included For Parties Of 6 Or More.</p>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <header class="gallery-head">
+        <p class="eyebrow">Inside</p>
+        <h2 class="script">Gallery</h2>
+      </header>
+      <div class="gallery-grid">
+        <button class="gallery-item" type="button" data-full="assets/img/photos/cocktails.jpg" aria-label="View cocktails photo">
+          <img src="assets/img/photos/cocktails.jpg" alt="Cocktails on the bar" width="480" height="320" loading="lazy" />
+        </button>
+        <button class="gallery-item" type="button" data-full="assets/img/photos/dining.jpg" aria-label="View dining room photo">
+          <img src="assets/img/photos/dining.jpg" alt="Dining room" width="480" height="320" loading="lazy" />
+        </button>
+        <button class="gallery-item" type="button" data-full="assets/img/photos/drink-chips.jpg" aria-label="View cocktail and chips photo">
+          <img src="assets/img/photos/drink-chips.jpg" alt="Cocktail and chips" width="480" height="320" loading="lazy" />
+        </button>
+        <button class="gallery-item" type="button" data-full="assets/img/photos/octopus.jpg" aria-label="View octopus photo">
+          <img src="assets/img/photos/octopus.jpg" alt="Grilled octopus" width="480" height="320" loading="lazy" />
+        </button>
+        <button class="gallery-item" type="button" data-full="assets/img/photos/table-spread.jpg" aria-label="View table spread photo">
+          <img src="assets/img/photos/table-spread.jpg" alt="Table spread" width="480" height="320" loading="lazy" />
+        </button>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit-inner">
+        <p class="eyebrow">Find the door</p>
+        <h2 class="script">Visit</h2>
+        <div class="visit-details">
+          <div>
+            <h3>Address</h3>
+            <p>
+              <a href="https://maps.apple.com/?q=890+Queen+St+E+Toronto" target="_blank" rel="noopener">
+                890 Queen St E<br />Toronto, ON M4M 1J3
+              </a>
+            </p>
+          </div>
+          <div>
+            <h3>Hours</h3>
+            <p>
+              Tue–Thu, Sun · 6pm–1am<br />
+              Fri–Sat · 6pm–2am<br />
+              Closed Monday
+            </p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p>
+              <a href="tel:+14164615295">(416) 461-5295</a><br />
+              <a href="mailto:info@barbokeh.com">info@barbokeh.com</a><br />
+              <a href="https://www.instagram.com/barbokeh/" target="_blank" rel="noopener">@barbokeh</a>
+            </p>
+          </div>
+        </div>
+
+        <a
+          class="btn btn-primary visit-cta"
+          href="https://www.opentable.com/r/bar-bokeh-toronto"
+          target="_blank"
+          rel="noopener"
+        >Reserve a table</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img class="footer-mark" src="assets/img/web-monogram-garnet.png" alt="" width="72" height="57" />
+    <p>Bar Bokeh · Leslieville</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" type="button" aria-label="Close photo">&times;</button>
+    <img class="lightbox-img" src="" alt="" />
+  </div>
+
+  <script>
+    const header = document.querySelector('.site-header');
+    const hero = document.querySelector('.hero');
+    const onScroll = () => {
+      const pastHero = window.scrollY > Math.max(hero.offsetHeight - 80, 24);
+      header.classList.toggle('is-scrolled', pastHero);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+
+    const reveal = document.querySelectorAll('.menu, .gallery, .visit');
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) e.target.classList.add('is-in');
+        });
+      },
+      { threshold: 0.1 }
+    );
+    reveal.forEach((el) => io.observe(el));
+
+    const tabs = document.querySelectorAll('.menu-tab');
+    const panels = {
+      cocktails: document.getElementById('panel-cocktails'),
+      food: document.getElementById('panel-food'),
+      more: document.getElementById('panel-more'),
+    };
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const id = tab.dataset.tab;
+        tabs.forEach((t) => {
+          t.classList.toggle('is-active', t === tab);
+          t.setAttribute('aria-selected', t === tab ? 'true' : 'false');
+        });
+        Object.entries(panels).forEach(([key, panel]) => {
+          const on = key === id;
+          panel.classList.toggle('is-active', on);
+          panel.hidden = !on;
+        });
+      });
+    });
+
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('.lightbox-img');
+    const openLightbox = (src, alt) => {
+      lightboxImg.src = src;
+      lightboxImg.alt = alt || '';
+      lightbox.hidden = false;
+      document.body.classList.add('lightbox-open');
+    };
+    const closeLightbox = () => {
+      lightbox.hidden = true;
+      lightboxImg.src = '';
+      document.body.classList.remove('lightbox-open');
+    };
+    document.querySelectorAll('.gallery-item').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const img = btn.querySelector('img');
+        openLightbox(btn.dataset.full, img?.alt);
+      });
+    });
+    lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !lightbox.hidden) closeLightbox();
+    });
+  </script>
+</body>
+</html>
